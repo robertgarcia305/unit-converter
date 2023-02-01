@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: "inconsolata";
-    src: url("fonts/Inconsolata-Regular.ttf");
+    font-family: "monserrat-bold";
+    src: url("fonts/Montserrat-Bold.ttf");
 }
 
 * {
@@ -16,7 +16,7 @@
 
 .page-wrap {
     background: rgb(237, 245, 250);
-    background: linear-gradient(45deg, rgb(40, 52, 63) 0%, rgb(48, 74, 80) 100%);
+    background: linear-gradient(45deg, rgb(35, 44, 53) 0%, rgb(29, 41, 44) 100%);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
 }
 
 .converter-wrap {
-    border: 3px solid black;
+    border: 3px solid rgb(247, 247, 247);
     width: 50%;
     padding: 15px;
     border-radius: 15px;
@@ -35,9 +35,8 @@
 h3 {
     font-size: 45px;
     color: white;
-    font-family: inconsolata;
+    font-family: monserrat-bold;
     margin-top: 40px;
-    letter-spacing: -0.08em;
 }
 
 p {
@@ -54,9 +53,14 @@ input, option, select {
     padding: 10px 5px;
 }
 
+.unit-top {
+    margin: 20px 0px;
+}
+
 .unit-bottom {
     display: flex;
     justify-content: space-evenly;
+    margin: 20px 0px;
 }
 
 .column {
